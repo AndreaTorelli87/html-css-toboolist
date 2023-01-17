@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin: 5px 20px;
+}
+
+header img{
+    vertical-align: middle;
+}
+
+h1{
+    display: inline-block;
+    vertical-align: middle;
+}
+
