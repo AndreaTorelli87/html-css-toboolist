@@ -1,4 +1,5 @@
 *{
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,12 +9,50 @@ header{
     margin: 5px 20px;
 }
 
-header img{
+header img, h1{
     vertical-align: middle;
 }
 
 h1{
     display: inline-block;
-    vertical-align: middle;
 }
 
+main{
+    background-color: #00A2FA;
+    padding-top: 30px;
+}
+
+.buttons, .list{
+    width: 70%;
+    background-color: white;
+    margin: auto;
+}
+
+.buttons{
+    height: 35px;
+    border-bottom: gray;
+
+}
+
+.button{
+    border-radius: 5%;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.first{
+    background-color: #00A2FA;
+    vertical-align: middle;
+
+}
+
+.second{
+    border: solid grey 2px;
+}
+
+
+
+
+p{
+    display: inline-block;
+}
