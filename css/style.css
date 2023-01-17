@@ -1,7 +1,6 @@
 *{
     font-family: sans-serif;
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
@@ -9,6 +8,7 @@ header{
     margin: 5px 20px;
 }
 
+/* logo */
 header img, h1{
     vertical-align: middle;
 }
@@ -19,10 +19,11 @@ h1{
 
 main{
     background-color: #00A2FA;
-    padding: 30px;
+    padding: 30px 0 300px;
     
 }
 
+/* prima sezione */
 .buttons, .list{
     width: 70%;
     background-color: white;
@@ -53,19 +54,63 @@ main{
 
 p{
     display: inline-block;
+    padding: 5px;
 }
 
+/* seconda sezione */
 .list{
     border-radius: 0 0 5px 5px;
-    padding: 30px 50px;    
+    padding: 20px 30px;    
 }
 
+section{
+    margin: 20px;
+}
+
+
+/* cerchi verdi */
 p span{
     color: green;
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     display: inline-block;
     text-align: center;
     border: solid 1px;
+    font-size: 14px;
+}
+
+.cross{
+    color: red;
+  }
+
+.tag{
+    color: white;
+    font-size: 9px;
+    border-radius: 11px;
+    padding: 4px;
+}
+
+.editional{
+    background-color: #00A1E6;
+}
+
+.Q1-Goals{
+    background-color: #9F52DC;
+}
+
+.recruiting{
+    background-color:#11C0A3; 
+}
+
+.mobile{
+    background-color: #FF8D25;
+}
+
+.website{
+    background-color: #ED3B8F;
+}
+
+.sales{
+    background-color: #9BCB35;
 }
