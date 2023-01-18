@@ -25,7 +25,7 @@ main{
 
 /* prima sezione */
 .buttons, .list{
-    width: 70%;
+    width: 60%;
     background-color: white;
     margin: auto;
 }
@@ -54,7 +54,7 @@ main{
 
 p{
     display: inline-block;
-    padding: 5px;
+    padding: 10px;
 }
 
 /* seconda sezione */
