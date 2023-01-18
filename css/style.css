@@ -19,8 +19,7 @@ h1{
 
 main{
     background-color: #00A2FA;
-    padding: 30px 0 300px;
-    
+    padding: 30px 0 300px;    
 }
 
 /* prima sezione */
@@ -33,11 +32,12 @@ main{
 .buttons{
     padding: 10px 50px;
     height: 50px;
-    border-bottom: #F4F7F8 solid 1px;
-    border-radius: 5px 5px 0 0;
+    border-bottom: #00A2FA solid 1px;
+    border-radius: 10px 10px 0 0;
 }
 
 .button{
+    border: none;
     border-radius: 5px;
     padding: 5px;
     font-size: 12px;
@@ -49,17 +49,18 @@ main{
 }
 
 .second{
-    background-color: white
+    background-color: white;
+    border: solid 1px grey;
 }
 
 p{
     display: inline-block;
-    padding: 10px;
+    padding: 10px 0;
 }
 
 /* seconda sezione */
 .list{
-    border-radius: 0 0 5px 5px;
+    border-radius: 0 0 10px 10px;
     padding: 20px 30px;    
 }
 
